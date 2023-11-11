@@ -18,15 +18,24 @@ box-sizing: border-box;
 display: flex;
 justify-content: space-between;
 align-items: center;
+margin-top: auto;
+min-height: 107px;
+background-color: #303030;
 }
 
 ul{
 list-style: none;
 display: flex;
-gap: 10px;
-padding: auto;
-margin-top: auto;
-margin-bottom: auto;
+margin: auto;
+gap: 20px;
+}
+
+ul li{
+margin: auto;
+}
+
+a{
+text-decoration: none;
 }
 
 .btn{
