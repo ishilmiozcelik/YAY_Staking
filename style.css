@@ -1,7 +1,53 @@
 .{
 margin: 0;
 padding: 0;
+box-sizing: border-box;
 }
-.container .menu ul, .social ul{
+
+:root{
+--yay-black: #303030;
+--yay-gray-3: #777777;
+--yay-gray-2: #ACACAC;
+--yay-gray-1: #DBDBDB;
+--yay-gray-0: #F2F3F7;
+--yay-white: #FFFFFF;
+--yay-green: #EBF76E;
+}
+
+.container{
 display: flex;
+justify-content: space-between;
+align-items: center;
 }
+
+ul{
+list-style: none;
+display: flex;
+gap: 10px;
+padding: auto;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.btn{
+background-color: var(--yay-gray-0);
+color: #333;
+font-weight: 600;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.5s;
+}
+
+
+/* Utility Classes */
+.btn-dark{
+background: var(--yay-black);
+color: var(--yay-white);
+}
+
+.btn-light{
+background: var(--yay-black);
+color: var(--yay-white);
+}
+    
