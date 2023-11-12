@@ -1,7 +1,7 @@
-.{
-margin: 0;
-padding: 0;
+*{
 box-sizing: border-box;
+margin: 0px;
+padding: 0px;
 }
 
 :root{
@@ -14,20 +14,26 @@ box-sizing: border-box;
 --yay-green: #EBF76E;
 }
 
+body{
+background-color: var(--yay-gray-0);
+}
+
 .container{
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin-top: auto;
-min-height: 107px;
-background-color: #303030;
+height: 100px;
+width: 100%;
+margin: auto;
+border: 1px solid black;
 }
+
 
 ul{
 list-style: none;
 display: flex;
 margin: auto;
-gap: 20px;
+gap: 40px;
 }
 
 ul li{
@@ -49,6 +55,29 @@ transition: 0.5s;
 }
 
 
+.hero{
+margin-top: 50px;
+width: 60%;
+}
+
+
+.stake{    
+border: 1px solid black;
+border-radius: 10px;
+padding: 20px;
+}
+
+.stake h1 {
+font-size: 1em;
+display: inline;
+}
+
+.stakelogo{
+border-radius: 10px;
+width: 40px;
+display: inline;
+}
+
 /* Utility Classes */
 .btn-dark{
 background: var(--yay-black);
@@ -60,3 +89,6 @@ background: var(--yay-black);
 color: var(--yay-white);
 }
     
+.back-white{
+background-color: var(--yay-white);
+}
