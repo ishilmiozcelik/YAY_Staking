@@ -18,22 +18,27 @@ body{
 background-color: var(--yay-gray-0);
 }
 
-.container{
+nav{
+background-color: #777777;
+align-items: center;
+height: 110px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-height: 100px;
-width: 100%;
-margin: auto;
 border: 1px solid black;
+padding: 0 10%;
 }
 
+
+.container{
+
+}
 
 ul{
 list-style: none;
 display: flex;
 margin: auto;
-gap: 40px;
+gap: 20px;
 }
 
 ul li{
@@ -55,9 +60,12 @@ transition: 0.5s;
 }
 
 
-.hero{
-margin-top: 50px;
-width: 60%;
+
+
+
+.staking{   
+margin-left: 10%;
+width: 45%;
 }
 
 
@@ -74,9 +82,20 @@ display: inline;
 
 .stakelogo{
 border-radius: 10px;
+margin-right: 10px;
 width: 40px;
 display: inline;
 }
+
+
+.unstake{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+
 
 /* Utility Classes */
 .btn-dark{
