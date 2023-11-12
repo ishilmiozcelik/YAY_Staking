@@ -25,14 +25,10 @@ height: 110px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-border: 1px solid black;
 padding: 0 10%;
 }
 
 
-.container{
-
-}
 
 ul{
 list-style: none;
@@ -47,6 +43,7 @@ margin: auto;
 
 a{
 text-decoration: none;
+color: var(--yay-black);
 }
 
 .btn{
@@ -59,52 +56,87 @@ cursor: pointer;
 transition: 0.5s;
 }
 
-
-
-
-
-.staking{   
+.staking{
+margin-top: 5%;
 margin-left: 10%;
-width: 45%;
+width: 48%;
 }
-
 
 .stake{    
-border: 1px solid black;
-border-radius: 10px;
+border-radius: 15px;
 padding: 20px;
-}
-
-.stake h1 {
-font-size: 1em;
-display: inline;
 }
 
 .stakelogo{
 border-radius: 10px;
-margin-right: 10px;
+margin-right: 15px;
 width: 40px;
 display: inline;
 }
 
+.stake h1, .unstake h1{
+font-size: 1.5em;
+display: inline;
+margin-bottom: 0;
+}
+
+.sup{
+display: flex;    
+align-items: center;
+margin-bottom: 20px;
+}
 
 .unstake{
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 20px;
+margin-top: 5%;
+border-radius: 10px;
+padding: 20px;
+}
+
+form p{
+margin-top: 10px;
+color: var(--yay-gray-3);
+font-size: 13px;
+}
+
+.input{
+border: none;
+border-bottom: 1px solid var(--yay-black);
+width: 100%;
+}
+
+.percentage{
+border: 1px solid var(--yay-black);
+border-radius: 20px;
+padding: 5px 15px;
+background-color: var(--yay-white);
+font-size: 13px;
+font-weight: 450;
+}
+
+.submit{
+float: right;
+cursor: pointer;
+border-radius: 30px;
+font-size: small;
+padding: 6px 50px;
+}
+
+.wallet{
+background-color: var(--yay-white);
+width: 150px;
+height: 150px;
 
 }
 
 
-
 /* Utility Classes */
-.btn-dark{
+.btn-dark{  
 background: var(--yay-black);
 color: var(--yay-white);
 }
 
 .btn-light{
-background: var(--yay-black);
+background: var(--yay-gray-1);
 color: var(--yay-white);
 }
     
