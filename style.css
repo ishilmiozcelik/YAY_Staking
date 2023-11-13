@@ -18,6 +18,25 @@ body{
 background-color: var(--yay-gray-0);
 }
 
+.hero-section{
+display: flex;
+}
+
+.hero-1{
+margin-top: 5%;
+margin-left: 10%;
+width: 48%;
+}
+
+
+.hero-2{
+margin-top: 5%;
+margin-right: 10%;
+}
+
+
+
+
 nav{
 background-color: #777777;
 align-items: center;
@@ -27,7 +46,6 @@ justify-content: space-between;
 align-items: center;
 padding: 0 10%;
 }
-
 
 
 ul{
@@ -56,13 +74,7 @@ cursor: pointer;
 transition: 0.5s;
 }
 
-.staking{
-margin-top: 5%;
-margin-left: 10%;
-width: 48%;
-}
-
-.stake{    
+.stake{
 border-radius: 15px;
 padding: 20px;
 }
@@ -122,10 +134,10 @@ padding: 6px 50px;
 }
 
 .wallet{
-background-color: var(--yay-white);
-width: 150px;
-height: 150px;
-
+background-color: var(--yay-black);
+height: 60px;
+width: 50px;
+float: right;
 }
 
 
@@ -143,3 +155,4 @@ color: var(--yay-white);
 .back-white{
 background-color: var(--yay-white);
 }
+  
